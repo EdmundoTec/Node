@@ -1,0 +1,38 @@
+link npmjs.com
+
+npm init -y // Iniciar o projeto node
+npm install express // Instala o express
+npm install nodemon // Instala o nodemon
+
+exemplo
+    const express = require('express')
+    const app = express()
+
+    app.get('/', function (req, res) {
+    res.send('Hello World')
+    })
+
+    app.listen(3000)
+
+
+req // Requisição
+    url: endereço
+    método.
+    GET // Listar dados
+    POST // Cadastrar/Inserir/Enviar
+    put // Editar/Atualizar
+    DELETE // Deletar
+
+res // Resposta
+
+
+
+//              [método]  [banco]   |
+// C (Create) => POST   => INSERT   |  _
+// .                                | |_|
+// R (Read)   => GET    =>  SELECT  | |_|
+// .                                | D.B
+// U (Update) => PUT    =>  UPDATE  |
+// .                                |
+// D (Delete) => DELETE =>  DELETE  |
+
